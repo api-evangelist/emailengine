@@ -44,3 +44,24 @@ maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com
 specificationVersion: '0.19'
+common:
+  - name: EmailEngine documentation
+    description: 'null'
+    url: https://api.emailengine.app/
+    type: Documentation
+  - name: Webhooks
+    description: 'null'
+    url: https://emailengine.app/webhooks
+    type: Webhooks
+  - name: EmailEngine Email API
+    description: 'null'
+    url: https://emailengine.app/#faq
+    type: FAQ
+  - name: EmailEngine Blog
+    description: 'null'
+    url: https://docs.emailengine.app/
+    type: Blog
+  - name: Support
+    description: 'null'
+    url: https://emailengine.app/support
+    type: Support
