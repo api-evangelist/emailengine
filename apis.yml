@@ -29,7 +29,7 @@ type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
 created: '2025-02-06'
-modified: '2025-03-29'
+modified: '2026-03-16'
 position: Consumer
 description: >-
   EmailEngine is a powerful email marketing platform that helps businesses
@@ -42,7 +42,7 @@ description: >-
   effective email marketing strategies.
 maintainers:
   - FN: Kin Lane
-    email: info@apievangelist.com
+    email: kin@apievangelist.com
 specificationVersion: '0.19'
 common:
   - name: EmailEngine documentation
