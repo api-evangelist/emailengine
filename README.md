@@ -1,50 +1,68 @@
 # EmailEngine (emailengine)
-EmailEngine is a powerful email marketing platform that helps businesses create, send, and track email campaigns with ease. With customizable templates, automated workflows, and detailed analytics, EmailEngine allows businesses to effectively engage and communicate with their audience. It also offers advanced segmentation tools to target specific groups of customers and improve campaign performance. With EmailEngine, businesses can increase their reach, drive more conversions, and ultimately grow their bottom line through effective email marketing strategies.
+
+EmailEngine is a self-hosted email automation platform that provides a unified REST API for accessing email accounts via IMAP, SMTP, the Gmail API, and the Microsoft Graph API. It exposes JSON payloads, real-time webhooks, OAuth2 integration, an IMAP/SMTP proxy, hosted authentication forms, low-code custom integrations, Prometheus monitoring, and bounce detection so developers can build modern email functionality without paying per-account fees.
 
 **URL:** [Visit APIs.json URL](https://raw.githubusercontent.com/api-evangelist/emailengine/refs/heads/main/apis.yml)
 
 ## Scope
 
-- **Type:** Index 
-- **Position:** Consumer 
-- **Access:** 3rd-Party 
+- **Type:** Index
+- **Position:** Consumer
+- **Access:** 3rd-Party
 
 ## Tags:
 
- - Email
+- Email
+- Email API
+- IMAP
+- SMTP
+- Webhooks
 
 ## Timestamps
 
-- **Created:** 2025-02-06 
-- **Modified:** 2025-03-29 
+- **Created:** 2025-02-06
+- **Modified:** 2026-04-28
 
 ## APIs
 
 ### EmailEngine API
-EmailEngine API is a powerful tool that allows developers to easily integrate email functionality into their applications. This API provides a range of features such as sending and receiving emails, creating email templates, tracking email delivery and open rates, and managing email lists. With EmailEngine API, developers can streamline their email communication and ensure that messages are delivered efficiently and effectively. Additionally, this API offers robust security features to protect sensitive email data and ensure compliance with privacy regulations. Overall, EmailEngine API simplifies the process of incorporating email capabilities into applications, making it a valuable tool for businesses looking to enhance their communication strategies.
 
-**Human URL:** [ https://emailengine.app/]( https://emailengine.app/)
+EmailEngine API exposes a unified REST interface for sending and receiving email through IMAP, SMTP, Gmail, and Microsoft Graph. Developers can manage mailboxes, send messages, work with attachments, configure webhooks, and automate OAuth2 token renewal across consumer and enterprise email providers.
 
+**Human URL:** [https://emailengine.app/](https://emailengine.app/)
 
-#### Tags:
+**Base URL:** https://api.emailengine.app
 
- - Email
+#### Tags
+
+- Email
+- Email API
+- IMAP
+- SMTP
 
 #### Properties
 
-- [Documentation]( https://emailengine.app/)
+- [Documentation](https://emailengine.app/)
+- [API Reference](https://learn.emailengine.app/docs/api/emailengine-api)
+- [Documentation](https://learn.emailengine.app/)
+- [SourceCode](https://github.com/postalsys/emailengine)
+- [Webhooks](https://emailengine.app/webhooks)
 
 ## Common Properties
 
-- [Documentation](https://api.emailengine.app/)
+- [Documentation](https://learn.emailengine.app/)
+- [API Reference](https://learn.emailengine.app/docs/api/emailengine-api)
 - [Webhooks](https://emailengine.app/webhooks)
+- [SourceCode](https://github.com/postalsys/emailengine)
+- [Blog](https://blog.emailengine.app/)
 - [FAQ](https://emailengine.app/#faq)
-- [Blog](https://docs.emailengine.app/)
+- [Pricing](https://postalsys.com/plans)
+- [TermsOfService](https://postalsys.com/tos)
+- [PrivacyPolicy](https://emailengine.app/privacy-policy)
 - [Support](https://emailengine.app/support)
 
 ## Maintainers
 
 **FN:** Kin Lane
 
-**Email:** info@apievangelist.com
-
+**Email:** kin@apievangelist.com
