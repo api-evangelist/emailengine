@@ -38,6 +38,8 @@ apis:
       - IMAP
       - SMTP
     properties:
+      - url: openapi/emailengine-openapi.yml
+        type: OpenAPI
       - url: https://emailengine.app/
         type: Documentation
       - url: https://learn.emailengine.app/docs/api/emailengine-api

@@ -1,0 +1,215 @@
+openapi: 3.1.0
+info:
+  title: EmailEngine API
+  description: >-
+    EmailEngine REST API exposes a unified interface for sending and receiving
+    email through IMAP, SMTP, Gmail, and Microsoft Graph. Endpoints below are
+    derived from the public EmailEngine API reference navigation.
+  version: "1.0.0"
+  x-generated-from: https://learn.emailengine.app/docs/api/emailengine-api
+  x-generated-by: claude-crawl-2026-05-08
+servers:
+  - url: https://api.emailengine.app
+    description: EmailEngine API
+paths:
+  /v1/accounts:
+    get:
+      summary: List accounts
+      operationId: listAccounts
+      responses:
+        "200":
+          description: Accounts list
+          content:
+            application/json:
+              schema:
+                type: object
+  /v1/account/{account}/mailboxes:
+    parameters:
+      - name: account
+        in: path
+        required: true
+        schema:
+          type: string
+    get:
+      summary: List mailboxes for account
+      operationId: listMailboxes
+      responses:
+        "200":
+          description: Mailboxes response
+          content:
+            application/json:
+              schema:
+                type: object
+  /v1/account/{account}/messages:
+    parameters:
+      - name: account
+        in: path
+        required: true
+        schema:
+          type: string
+    get:
+      summary: List messages for account
+      operationId: listMessages
+      responses:
+        "200":
+          description: Messages response
+          content:
+            application/json:
+              schema:
+                type: object
+  /v1/account/{account}/submit:
+    parameters:
+      - name: account
+        in: path
+        required: true
+        schema:
+          type: string
+    post:
+      summary: Submit message for delivery
+      operationId: submitMessage
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+      responses:
+        "200":
+          description: Submission response
+          content:
+            application/json:
+              schema:
+                type: object
+  /v1/outbox:
+    get:
+      summary: List outbox items
+      operationId: listOutbox
+      responses:
+        "200":
+          description: Outbox response
+          content:
+            application/json:
+              schema:
+                type: object
+  /v1/deliverytest/check/{deliverytest}:
+    parameters:
+      - name: deliverytest
+        in: path
+        required: true
+        schema:
+          type: string
+    get:
+      summary: Check delivery test status
+      operationId: checkDeliveryTest
+      responses:
+        "200":
+          description: Delivery test response
+          content:
+            application/json:
+              schema:
+                type: object
+  /v1/tokens:
+    get:
+      summary: List access tokens
+      operationId: listTokens
+      responses:
+        "200":
+          description: Tokens response
+          content:
+            application/json:
+              schema:
+                type: object
+  /v1/autoconfig:
+    get:
+      summary: Get email autoconfig settings
+      operationId: getAutoconfig
+      responses:
+        "200":
+          description: Autoconfig response
+          content:
+            application/json:
+              schema:
+                type: object
+  /v1/templates:
+    get:
+      summary: List email templates
+      operationId: listTemplates
+      responses:
+        "200":
+          description: Templates response
+          content:
+            application/json:
+              schema:
+                type: object
+  /v1/logs/{account}:
+    parameters:
+      - name: account
+        in: path
+        required: true
+        schema:
+          type: string
+    get:
+      summary: Get logs for account
+      operationId: getAccountLogs
+      responses:
+        "200":
+          description: Logs response
+          content:
+            application/json:
+              schema:
+                type: object
+  /v1/stats:
+    get:
+      summary: Retrieve EmailEngine statistics
+      operationId: getStats
+      responses:
+        "200":
+          description: Stats response
+          content:
+            application/json:
+              schema:
+                type: object
+  /v1/license:
+    get:
+      summary: Get license info
+      operationId: getLicense
+      responses:
+        "200":
+          description: License response
+          content:
+            application/json:
+              schema:
+                type: object
+  /v1/webhookroutes:
+    get:
+      summary: List webhook routes
+      operationId: listWebhookRoutes
+      responses:
+        "200":
+          description: Webhook routes response
+          content:
+            application/json:
+              schema:
+                type: object
+  /v1/oauth2:
+    get:
+      summary: List OAuth2 applications
+      operationId: listOauth2Apps
+      responses:
+        "200":
+          description: OAuth2 applications response
+          content:
+            application/json:
+              schema:
+                type: object
+  /v1/gateways:
+    get:
+      summary: List SMTP gateways
+      operationId: listGateways
+      responses:
+        "200":
+          description: Gateways response
+          content:
+            application/json:
+              schema:
+                type: object
