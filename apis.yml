@@ -43,7 +43,7 @@ apis:
       - url: https://emailengine.app/
         type: Documentation
       - url: https://learn.emailengine.app/docs/api/emailengine-api
-        type: API Reference
+        type: APIReference
       - url: https://learn.emailengine.app/
         type: Documentation
       - url: https://github.com/postalsys/emailengine
@@ -59,7 +59,7 @@ common:
     type: Documentation
   - name: API Reference
     url: https://learn.emailengine.app/docs/api/emailengine-api
-    type: API Reference
+    type: APIReference
   - name: Webhooks
     url: https://emailengine.app/webhooks
     type: Webhooks
