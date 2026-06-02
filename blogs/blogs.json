@@ -2,12 +2,20 @@
   "repo": "emailengine",
   "feeds": [
     {
-      "source": "https://blog.emailengine.app/",
+      "source": "https://blog.emailengine.app/feed/",
       "feed_url": "https://blog.emailengine.app/feed/",
-      "title": "EmailEngine Blog",
-      "saved": 2
+      "title": "",
+      "saved": 0,
+      "method": "feed"
+    },
+    {
+      "source": "https://blog.emailengine.app/",
+      "feed_url": "https://blog.emailengine.app/rss/",
+      "title": "",
+      "saved": 0,
+      "method": "discovered"
     }
   ],
   "post_count": 12,
-  "fetched": "2026-05-17T20:20:35Z"
+  "fetched": "2026-06-01T23:35:02Z"
 }
