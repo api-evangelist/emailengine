@@ -2,7 +2,7 @@
 
 EmailEngine is a self-hosted email automation platform that provides a unified REST API for accessing email accounts via IMAP, SMTP, the Gmail API, and the Microsoft Graph API. It exposes JSON payloads, real-time webhooks, OAuth2 integration, an IMAP/SMTP proxy, hosted authentication forms, low-code custom integrations, Prometheus monitoring, and bounce detection so developers can build modern email functionality without paying per-account fees.
 
-**URL:** [Visit APIs.json URL](https://raw.githubusercontent.com/api-evangelist/emailengine/refs/heads/main/apis.yml)
+**APIs.json:** [https://raw.githubusercontent.com/api-evangelist/emailengine/refs/heads/main/apis.yml](https://raw.githubusercontent.com/api-evangelist/emailengine/refs/heads/main/apis.yml)
 
 ## Scope
 
@@ -10,7 +10,7 @@ EmailEngine is a self-hosted email automation platform that provides a unified R
 - **Position:** Consumer
 - **Access:** 3rd-Party
 
-## Tags:
+## Tags
 
 - Email
 - Email API
@@ -21,7 +21,7 @@ EmailEngine is a self-hosted email automation platform that provides a unified R
 ## Timestamps
 
 - **Created:** 2025-02-06
-- **Modified:** 2026-04-28
+- **Modified:** 2026-05-19
 
 ## APIs
 
@@ -29,9 +29,8 @@ EmailEngine is a self-hosted email automation platform that provides a unified R
 
 EmailEngine API exposes a unified REST interface for sending and receiving email through IMAP, SMTP, Gmail, and Microsoft Graph. Developers can manage mailboxes, send messages, work with attachments, configure webhooks, and automate OAuth2 token renewal across consumer and enterprise email providers.
 
-**Human URL:** [https://emailengine.app/](https://emailengine.app/)
-
-**Base URL:** https://api.emailengine.app
+- **Human URL:** [https://emailengine.app/](https://emailengine.app/)
+- **Base URL:** `https://api.emailengine.app`
 
 #### Tags
 
@@ -42,10 +41,13 @@ EmailEngine API exposes a unified REST interface for sending and receiving email
 
 #### Properties
 
+- [OpenAPI](openapi/emailengine-openapi.yml) — [OpenAPI Specification](https://spec.openapis.org/oas/latest.html)
+- [Postman Collection](collections/emailengine.postman_collection.json) — [Postman Collection 2.1](https://schema.getpostman.com/json/collection/v2.1.0/collection.json)
+- [Open Collection](collections/emailengine.opencollection.json) — [Open Collection 1.0](https://schema.opencollection.com/opencollection/v1.0.0.json)
 - [Documentation](https://emailengine.app/)
 - [API Reference](https://learn.emailengine.app/docs/api/emailengine-api)
 - [Documentation](https://learn.emailengine.app/)
-- [SourceCode](https://github.com/postalsys/emailengine)
+- [Source Code](https://github.com/postalsys/emailengine)
 - [Webhooks](https://emailengine.app/webhooks)
 
 ## Common Properties
@@ -53,16 +55,15 @@ EmailEngine API exposes a unified REST interface for sending and receiving email
 - [Documentation](https://learn.emailengine.app/)
 - [API Reference](https://learn.emailengine.app/docs/api/emailengine-api)
 - [Webhooks](https://emailengine.app/webhooks)
-- [SourceCode](https://github.com/postalsys/emailengine)
+- [Source Code](https://github.com/postalsys/emailengine)
 - [Blog](https://blog.emailengine.app/)
-- [FAQ](https://emailengine.app/#faq)
+- [F A Q](https://emailengine.app/#faq)
 - [Pricing](https://postalsys.com/plans)
-- [TermsOfService](https://postalsys.com/tos)
-- [PrivacyPolicy](https://emailengine.app/privacy-policy)
+- [Terms of Service](https://postalsys.com/tos)
+- [Privacy Policy](https://emailengine.app/privacy-policy)
 - [Support](https://emailengine.app/support)
 
 ## Maintainers
 
 **FN:** Kin Lane
-
 **Email:** kin@apievangelist.com
