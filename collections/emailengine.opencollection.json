@@ -1,0 +1,214 @@
+{
+  "opencollection": "1.0.0",
+  "info": {
+    "name": "EmailEngine API",
+    "version": "1.0.0"
+  },
+  "items": [
+    {
+      "info": {
+        "name": "List accounts",
+        "type": "http"
+      },
+      "http": {
+        "method": "GET",
+        "url": "https://api.emailengine.app/v1/accounts"
+      },
+      "docs": "List accounts"
+    },
+    {
+      "info": {
+        "name": "List mailboxes for account",
+        "type": "http"
+      },
+      "http": {
+        "method": "GET",
+        "url": "https://api.emailengine.app/v1/account/:account/mailboxes",
+        "params": [
+          {
+            "name": "account",
+            "value": "",
+            "type": "path"
+          }
+        ]
+      },
+      "docs": "List mailboxes for account"
+    },
+    {
+      "info": {
+        "name": "List messages for account",
+        "type": "http"
+      },
+      "http": {
+        "method": "GET",
+        "url": "https://api.emailengine.app/v1/account/:account/messages",
+        "params": [
+          {
+            "name": "account",
+            "value": "",
+            "type": "path"
+          }
+        ]
+      },
+      "docs": "List messages for account"
+    },
+    {
+      "info": {
+        "name": "Submit message for delivery",
+        "type": "http"
+      },
+      "http": {
+        "method": "POST",
+        "url": "https://api.emailengine.app/v1/account/:account/submit",
+        "params": [
+          {
+            "name": "account",
+            "value": "",
+            "type": "path"
+          }
+        ],
+        "body": {
+          "type": "json",
+          "data": "{}"
+        }
+      },
+      "docs": "Submit message for delivery"
+    },
+    {
+      "info": {
+        "name": "List outbox items",
+        "type": "http"
+      },
+      "http": {
+        "method": "GET",
+        "url": "https://api.emailengine.app/v1/outbox"
+      },
+      "docs": "List outbox items"
+    },
+    {
+      "info": {
+        "name": "Check delivery test status",
+        "type": "http"
+      },
+      "http": {
+        "method": "GET",
+        "url": "https://api.emailengine.app/v1/deliverytest/check/:deliverytest",
+        "params": [
+          {
+            "name": "deliverytest",
+            "value": "",
+            "type": "path"
+          }
+        ]
+      },
+      "docs": "Check delivery test status"
+    },
+    {
+      "info": {
+        "name": "List access tokens",
+        "type": "http"
+      },
+      "http": {
+        "method": "GET",
+        "url": "https://api.emailengine.app/v1/tokens"
+      },
+      "docs": "List access tokens"
+    },
+    {
+      "info": {
+        "name": "Get email autoconfig settings",
+        "type": "http"
+      },
+      "http": {
+        "method": "GET",
+        "url": "https://api.emailengine.app/v1/autoconfig"
+      },
+      "docs": "Get email autoconfig settings"
+    },
+    {
+      "info": {
+        "name": "List email templates",
+        "type": "http"
+      },
+      "http": {
+        "method": "GET",
+        "url": "https://api.emailengine.app/v1/templates"
+      },
+      "docs": "List email templates"
+    },
+    {
+      "info": {
+        "name": "Get logs for account",
+        "type": "http"
+      },
+      "http": {
+        "method": "GET",
+        "url": "https://api.emailengine.app/v1/logs/:account",
+        "params": [
+          {
+            "name": "account",
+            "value": "",
+            "type": "path"
+          }
+        ]
+      },
+      "docs": "Get logs for account"
+    },
+    {
+      "info": {
+        "name": "Retrieve EmailEngine statistics",
+        "type": "http"
+      },
+      "http": {
+        "method": "GET",
+        "url": "https://api.emailengine.app/v1/stats"
+      },
+      "docs": "Retrieve EmailEngine statistics"
+    },
+    {
+      "info": {
+        "name": "Get license info",
+        "type": "http"
+      },
+      "http": {
+        "method": "GET",
+        "url": "https://api.emailengine.app/v1/license"
+      },
+      "docs": "Get license info"
+    },
+    {
+      "info": {
+        "name": "List webhook routes",
+        "type": "http"
+      },
+      "http": {
+        "method": "GET",
+        "url": "https://api.emailengine.app/v1/webhookroutes"
+      },
+      "docs": "List webhook routes"
+    },
+    {
+      "info": {
+        "name": "List OAuth2 applications",
+        "type": "http"
+      },
+      "http": {
+        "method": "GET",
+        "url": "https://api.emailengine.app/v1/oauth2"
+      },
+      "docs": "List OAuth2 applications"
+    },
+    {
+      "info": {
+        "name": "List SMTP gateways",
+        "type": "http"
+      },
+      "http": {
+        "method": "GET",
+        "url": "https://api.emailengine.app/v1/gateways"
+      },
+      "docs": "List SMTP gateways"
+    }
+  ],
+  "bundled": true
+}
