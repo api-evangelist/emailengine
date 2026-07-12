@@ -50,6 +50,8 @@ apis:
       - FN: EmailEngine Support
         email: info@postalsys.com
 common:
+  - type: DomainSecurity
+    url: security/emailengine-domain-security.yml
   - name: EmailEngine Documentation
     url: https://learn.emailengine.app/
     type: Documentation
