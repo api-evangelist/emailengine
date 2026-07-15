@@ -50,6 +50,8 @@ apis:
       - FN: EmailEngine Support
         email: info@postalsys.com
 common:
+  - type: AgenticAccess
+    url: agentic-access/emailengine-agentic-access.yml
   - type: DomainSecurity
     url: security/emailengine-domain-security.yml
   - name: EmailEngine Documentation
