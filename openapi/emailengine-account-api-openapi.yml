@@ -1,0 +1,76 @@
+openapi: 3.1.0
+info:
+  title: EmailEngine Account API
+  description: EmailEngine REST API exposes a unified interface for sending and receiving email through IMAP, SMTP, Gmail, and Microsoft Graph. Endpoints below are derived from the public EmailEngine API reference navigation.
+  version: 1.0.0
+  x-generated-from: https://learn.emailengine.app/docs/api/emailengine-api
+  x-generated-by: claude-crawl-2026-05-08
+servers:
+- url: https://api.emailengine.app
+  description: EmailEngine API
+tags:
+- name: Account
+paths:
+  /v1/account/{account}/mailboxes:
+    parameters:
+    - name: account
+      in: path
+      required: true
+      schema:
+        type: string
+    get:
+      summary: List mailboxes for account
+      operationId: listMailboxes
+      responses:
+        '200':
+          description: Mailboxes response
+          content:
+            application/json:
+              schema:
+                type: object
+      tags:
+      - Account
+  /v1/account/{account}/messages:
+    parameters:
+    - name: account
+      in: path
+      required: true
+      schema:
+        type: string
+    get:
+      summary: List messages for account
+      operationId: listMessages
+      responses:
+        '200':
+          description: Messages response
+          content:
+            application/json:
+              schema:
+                type: object
+      tags:
+      - Account
+  /v1/account/{account}/submit:
+    parameters:
+    - name: account
+      in: path
+      required: true
+      schema:
+        type: string
+    post:
+      summary: Submit message for delivery
+      operationId: submitMessage
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+      responses:
+        '200':
+          description: Submission response
+          content:
+            application/json:
+              schema:
+                type: object
+      tags:
+      - Account

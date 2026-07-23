@@ -1,0 +1,26 @@
+openapi: 3.1.0
+info:
+  title: EmailEngine Account Oauth2 API
+  description: EmailEngine REST API exposes a unified interface for sending and receiving email through IMAP, SMTP, Gmail, and Microsoft Graph. Endpoints below are derived from the public EmailEngine API reference navigation.
+  version: 1.0.0
+  x-generated-from: https://learn.emailengine.app/docs/api/emailengine-api
+  x-generated-by: claude-crawl-2026-05-08
+servers:
+- url: https://api.emailengine.app
+  description: EmailEngine API
+tags:
+- name: Oauth2
+paths:
+  /v1/oauth2:
+    get:
+      summary: List OAuth2 applications
+      operationId: listOauth2Apps
+      responses:
+        '200':
+          description: OAuth2 applications response
+          content:
+            application/json:
+              schema:
+                type: object
+      tags:
+      - Oauth2
