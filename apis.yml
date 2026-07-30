@@ -5,7 +5,19 @@ description: >-
   via IMAP, SMTP, the Gmail API, and the Microsoft Graph API. It exposes JSON payloads, real-time webhooks, OAuth2
   integration, an IMAP/SMTP proxy, hosted authentication forms, low-code custom integrations, Prometheus monitoring, and
   bounce detection so developers can build modern email functionality without paying per-account fees.
-image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
+accessModel:
+  pricing: freemium
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Freemium
+  confidence: medium
+  source:
+  - plans
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/emailengine.png
 type: Index
 tags:
   - Email
@@ -20,35 +32,266 @@ specificationVersion: '0.19'
 access: 3rd-Party
 position: Consumer
 apis:
-  - aid: emailengine:emailengine
-    name: EmailEngine API
-    description: >-
-      EmailEngine API exposes a unified REST interface for sending and receiving email through IMAP, SMTP, Gmail, and
-      Microsoft Graph. Developers can manage mailboxes, send messages, work with attachments, configure webhooks, and
-      automate OAuth2 token renewal across consumer and enterprise email providers.
-    humanURL: https://emailengine.app/
-    baseURL: https://api.emailengine.app
-    tags:
-      - Email
-      - Email API
-      - IMAP
-      - SMTP
-    properties:
-      - url: openapi/emailengine-openapi.yml
-        type: OpenAPI
-      - url: https://emailengine.app/
-        type: Documentation
-      - url: https://learn.emailengine.app/docs/api/emailengine-api
-        type: APIReference
-      - url: https://learn.emailengine.app/
-        type: Documentation
-      - url: https://github.com/postalsys/emailengine
-        type: SourceCode
-      - url: https://emailengine.app/webhooks
-        type: Webhooks
-    contact:
-      - FN: EmailEngine Support
-        email: info@postalsys.com
+- aid: emailengine:emailengine-account-api
+  name: EmailEngine Account API
+  description: The Account API from EmailEngine — 3 operation(s) for account.
+  humanURL: https://emailengine.app/
+  baseURL: https://api.emailengine.app
+  tags:
+  - Account
+  properties:
+  - type: OpenAPI
+    url: openapi/emailengine-account-api-openapi.yml
+  - type: Documentation
+    url: https://emailengine.app/
+  - type: APIReference
+    url: https://learn.emailengine.app/docs/api/emailengine-api
+  - type: Documentation
+    url: https://learn.emailengine.app/
+  - type: SourceCode
+    url: https://github.com/postalsys/emailengine
+  - type: Webhooks
+    url: https://emailengine.app/webhooks
+- aid: emailengine:emailengine-accounts-api
+  name: EmailEngine Accounts API
+  description: The Accounts API from EmailEngine — 1 operation(s) for accounts.
+  humanURL: https://emailengine.app/
+  baseURL: https://api.emailengine.app
+  tags:
+  - Accounts
+  properties:
+  - type: OpenAPI
+    url: openapi/emailengine-accounts-api-openapi.yml
+  - type: Documentation
+    url: https://emailengine.app/
+  - type: APIReference
+    url: https://learn.emailengine.app/docs/api/emailengine-api
+  - type: Documentation
+    url: https://learn.emailengine.app/
+  - type: SourceCode
+    url: https://github.com/postalsys/emailengine
+  - type: Webhooks
+    url: https://emailengine.app/webhooks
+- aid: emailengine:emailengine-autoconfig-api
+  name: EmailEngine Autoconfig API
+  description: The Autoconfig API from EmailEngine — 1 operation(s) for autoconfig.
+  humanURL: https://emailengine.app/
+  baseURL: https://api.emailengine.app
+  tags:
+  - Autoconfig
+  properties:
+  - type: OpenAPI
+    url: openapi/emailengine-autoconfig-api-openapi.yml
+  - type: Documentation
+    url: https://emailengine.app/
+  - type: APIReference
+    url: https://learn.emailengine.app/docs/api/emailengine-api
+  - type: Documentation
+    url: https://learn.emailengine.app/
+  - type: SourceCode
+    url: https://github.com/postalsys/emailengine
+  - type: Webhooks
+    url: https://emailengine.app/webhooks
+- aid: emailengine:emailengine-deliverytest-api
+  name: EmailEngine Deliverytest API
+  description: The Deliverytest API from EmailEngine — 1 operation(s) for deliverytest.
+  humanURL: https://emailengine.app/
+  baseURL: https://api.emailengine.app
+  tags:
+  - Deliverytest
+  properties:
+  - type: OpenAPI
+    url: openapi/emailengine-deliverytest-api-openapi.yml
+  - type: Documentation
+    url: https://emailengine.app/
+  - type: APIReference
+    url: https://learn.emailengine.app/docs/api/emailengine-api
+  - type: Documentation
+    url: https://learn.emailengine.app/
+  - type: SourceCode
+    url: https://github.com/postalsys/emailengine
+  - type: Webhooks
+    url: https://emailengine.app/webhooks
+- aid: emailengine:emailengine-gateways-api
+  name: EmailEngine Gateways API
+  description: The Gateways API from EmailEngine — 1 operation(s) for gateways.
+  humanURL: https://emailengine.app/
+  baseURL: https://api.emailengine.app
+  tags:
+  - Gateways
+  properties:
+  - type: OpenAPI
+    url: openapi/emailengine-gateways-api-openapi.yml
+  - type: Documentation
+    url: https://emailengine.app/
+  - type: APIReference
+    url: https://learn.emailengine.app/docs/api/emailengine-api
+  - type: Documentation
+    url: https://learn.emailengine.app/
+  - type: SourceCode
+    url: https://github.com/postalsys/emailengine
+  - type: Webhooks
+    url: https://emailengine.app/webhooks
+- aid: emailengine:emailengine-license-api
+  name: EmailEngine License API
+  description: The License API from EmailEngine — 1 operation(s) for license.
+  humanURL: https://emailengine.app/
+  baseURL: https://api.emailengine.app
+  tags:
+  - License
+  properties:
+  - type: OpenAPI
+    url: openapi/emailengine-license-api-openapi.yml
+  - type: Documentation
+    url: https://emailengine.app/
+  - type: APIReference
+    url: https://learn.emailengine.app/docs/api/emailengine-api
+  - type: Documentation
+    url: https://learn.emailengine.app/
+  - type: SourceCode
+    url: https://github.com/postalsys/emailengine
+  - type: Webhooks
+    url: https://emailengine.app/webhooks
+- aid: emailengine:emailengine-logs-api
+  name: EmailEngine Logs API
+  description: The Logs API from EmailEngine — 1 operation(s) for logs.
+  humanURL: https://emailengine.app/
+  baseURL: https://api.emailengine.app
+  tags:
+  - Logs
+  properties:
+  - type: OpenAPI
+    url: openapi/emailengine-logs-api-openapi.yml
+  - type: Documentation
+    url: https://emailengine.app/
+  - type: APIReference
+    url: https://learn.emailengine.app/docs/api/emailengine-api
+  - type: Documentation
+    url: https://learn.emailengine.app/
+  - type: SourceCode
+    url: https://github.com/postalsys/emailengine
+  - type: Webhooks
+    url: https://emailengine.app/webhooks
+- aid: emailengine:emailengine-oauth2-api
+  name: EmailEngine Oauth2 API
+  description: The Oauth2 API from EmailEngine — 1 operation(s) for oauth2.
+  humanURL: https://emailengine.app/
+  baseURL: https://api.emailengine.app
+  tags:
+  - Oauth2
+  properties:
+  - type: OpenAPI
+    url: openapi/emailengine-oauth2-api-openapi.yml
+  - type: Documentation
+    url: https://emailengine.app/
+  - type: APIReference
+    url: https://learn.emailengine.app/docs/api/emailengine-api
+  - type: Documentation
+    url: https://learn.emailengine.app/
+  - type: SourceCode
+    url: https://github.com/postalsys/emailengine
+  - type: Webhooks
+    url: https://emailengine.app/webhooks
+- aid: emailengine:emailengine-outbox-api
+  name: EmailEngine Outbox API
+  description: The Outbox API from EmailEngine — 1 operation(s) for outbox.
+  humanURL: https://emailengine.app/
+  baseURL: https://api.emailengine.app
+  tags:
+  - Outbox
+  properties:
+  - type: OpenAPI
+    url: openapi/emailengine-outbox-api-openapi.yml
+  - type: Documentation
+    url: https://emailengine.app/
+  - type: APIReference
+    url: https://learn.emailengine.app/docs/api/emailengine-api
+  - type: Documentation
+    url: https://learn.emailengine.app/
+  - type: SourceCode
+    url: https://github.com/postalsys/emailengine
+  - type: Webhooks
+    url: https://emailengine.app/webhooks
+- aid: emailengine:emailengine-stats-api
+  name: EmailEngine Stats API
+  description: The Stats API from EmailEngine — 1 operation(s) for stats.
+  humanURL: https://emailengine.app/
+  baseURL: https://api.emailengine.app
+  tags:
+  - Stats
+  properties:
+  - type: OpenAPI
+    url: openapi/emailengine-stats-api-openapi.yml
+  - type: Documentation
+    url: https://emailengine.app/
+  - type: APIReference
+    url: https://learn.emailengine.app/docs/api/emailengine-api
+  - type: Documentation
+    url: https://learn.emailengine.app/
+  - type: SourceCode
+    url: https://github.com/postalsys/emailengine
+  - type: Webhooks
+    url: https://emailengine.app/webhooks
+- aid: emailengine:emailengine-templates-api
+  name: EmailEngine Templates API
+  description: The Templates API from EmailEngine — 1 operation(s) for templates.
+  humanURL: https://emailengine.app/
+  baseURL: https://api.emailengine.app
+  tags:
+  - Templates
+  properties:
+  - type: OpenAPI
+    url: openapi/emailengine-templates-api-openapi.yml
+  - type: Documentation
+    url: https://emailengine.app/
+  - type: APIReference
+    url: https://learn.emailengine.app/docs/api/emailengine-api
+  - type: Documentation
+    url: https://learn.emailengine.app/
+  - type: SourceCode
+    url: https://github.com/postalsys/emailengine
+  - type: Webhooks
+    url: https://emailengine.app/webhooks
+- aid: emailengine:emailengine-tokens-api
+  name: EmailEngine Tokens API
+  description: The Tokens API from EmailEngine — 1 operation(s) for tokens.
+  humanURL: https://emailengine.app/
+  baseURL: https://api.emailengine.app
+  tags:
+  - Tokens
+  properties:
+  - type: OpenAPI
+    url: openapi/emailengine-tokens-api-openapi.yml
+  - type: Documentation
+    url: https://emailengine.app/
+  - type: APIReference
+    url: https://learn.emailengine.app/docs/api/emailengine-api
+  - type: Documentation
+    url: https://learn.emailengine.app/
+  - type: SourceCode
+    url: https://github.com/postalsys/emailengine
+  - type: Webhooks
+    url: https://emailengine.app/webhooks
+- aid: emailengine:emailengine-webhookroutes-api
+  name: EmailEngine Webhookroutes API
+  description: The Webhookroutes API from EmailEngine — 1 operation(s) for webhookroutes.
+  humanURL: https://emailengine.app/
+  baseURL: https://api.emailengine.app
+  tags:
+  - Webhookroutes
+  properties:
+  - type: OpenAPI
+    url: openapi/emailengine-webhookroutes-api-openapi.yml
+  - type: Documentation
+    url: https://emailengine.app/
+  - type: APIReference
+    url: https://learn.emailengine.app/docs/api/emailengine-api
+  - type: Documentation
+    url: https://learn.emailengine.app/
+  - type: SourceCode
+    url: https://github.com/postalsys/emailengine
+  - type: Webhooks
+    url: https://emailengine.app/webhooks
 common:
   - type: AgenticAccess
     url: agentic-access/emailengine-agentic-access.yml
