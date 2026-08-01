@@ -1,0 +1,38 @@
+{
+  "provider": "emailengine",
+  "sources": [
+    "emailengine-account-api-openapi.yml",
+    "emailengine-accounts-api-openapi.yml",
+    "emailengine-autoconfig-api-openapi.yml",
+    "emailengine-deliverytest-api-openapi.yml",
+    "emailengine-gateways-api-openapi.yml",
+    "emailengine-license-api-openapi.yml",
+    "emailengine-logs-api-openapi.yml",
+    "emailengine-oauth2-api-openapi.yml",
+    "emailengine-outbox-api-openapi.yml",
+    "emailengine-stats-api-openapi.yml",
+    "emailengine-templates-api-openapi.yml",
+    "emailengine-tokens-api-openapi.yml",
+    "emailengine-webhookroutes-api-openapi.yml"
+  ],
+  "outputs": [
+    "emailengine-account-api-openapi.yml",
+    "emailengine-accounts-api-openapi.yml",
+    "emailengine-autoconfig-api-openapi.yml",
+    "emailengine-deliverytest-api-openapi.yml",
+    "emailengine-gateways-api-openapi.yml",
+    "emailengine-license-api-openapi.yml",
+    "emailengine-logs-api-openapi.yml",
+    "emailengine-oauth2-api-openapi.yml",
+    "emailengine-outbox-api-openapi.yml",
+    "emailengine-stats-api-openapi.yml",
+    "emailengine-templates-api-openapi.yml",
+    "emailengine-tokens-api-openapi.yml",
+    "emailengine-webhookroutes-api-openapi.yml"
+  ],
+  "archived": [],
+  "errors": [],
+  "warnings": [],
+  "notes": [],
+  "skipped": []
+}
