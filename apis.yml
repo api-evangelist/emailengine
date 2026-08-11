@@ -293,6 +293,14 @@ apis:
   - type: Webhooks
     url: https://emailengine.app/webhooks
 common:
+  - type: Releases
+    url: https://github.com/postalsys/emailengine/releases
+  - type: SecurityPolicy
+    url: https://github.com/postalsys/emailengine/blob/master/SECURITY.md
+  - type: CodeOfConduct
+    url: https://github.com/postalsys/emailengine/blob/master/.github/CODE_OF_CONDUCT.md
+  - type: ContributionGuide
+    url: https://github.com/postalsys/emailengine/blob/master/.github/contributing.md
   - type: AgenticAccess
     url: agentic-access/emailengine-agentic-access.yml
   - type: DomainSecurity
