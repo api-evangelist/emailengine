@@ -1,0 +1,76 @@
+{
+  "opencollection": "1.0.0",
+  "info": {
+    "name": "EmailEngine Account API",
+    "version": "1.0.0"
+  },
+  "items": [
+    {
+      "info": {
+        "name": "Account",
+        "type": "folder"
+      },
+      "items": [
+        {
+          "info": {
+            "name": "List mailboxes for account",
+            "type": "http"
+          },
+          "http": {
+            "method": "GET",
+            "url": "https://api.emailengine.app/v1/account/:account/mailboxes",
+            "params": [
+              {
+                "name": "account",
+                "value": "",
+                "type": "path"
+              }
+            ]
+          },
+          "docs": "List mailboxes for account"
+        },
+        {
+          "info": {
+            "name": "List messages for account",
+            "type": "http"
+          },
+          "http": {
+            "method": "GET",
+            "url": "https://api.emailengine.app/v1/account/:account/messages",
+            "params": [
+              {
+                "name": "account",
+                "value": "",
+                "type": "path"
+              }
+            ]
+          },
+          "docs": "List messages for account"
+        },
+        {
+          "info": {
+            "name": "Submit message for delivery",
+            "type": "http"
+          },
+          "http": {
+            "method": "POST",
+            "url": "https://api.emailengine.app/v1/account/:account/submit",
+            "params": [
+              {
+                "name": "account",
+                "value": "",
+                "type": "path"
+              }
+            ],
+            "body": {
+              "type": "json",
+              "data": "{}"
+            }
+          },
+          "docs": "Submit message for delivery"
+        }
+      ]
+    }
+  ],
+  "bundled": true
+}

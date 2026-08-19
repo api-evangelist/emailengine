@@ -1,0 +1,29 @@
+{
+  "opencollection": "1.0.0",
+  "info": {
+    "name": "EmailEngine Account License API",
+    "version": "1.0.0"
+  },
+  "items": [
+    {
+      "info": {
+        "name": "License",
+        "type": "folder"
+      },
+      "items": [
+        {
+          "info": {
+            "name": "Get license info",
+            "type": "http"
+          },
+          "http": {
+            "method": "GET",
+            "url": "https://api.emailengine.app/v1/license"
+          },
+          "docs": "Get license info"
+        }
+      ]
+    }
+  ],
+  "bundled": true
+}

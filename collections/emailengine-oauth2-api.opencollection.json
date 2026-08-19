@@ -1,0 +1,29 @@
+{
+  "opencollection": "1.0.0",
+  "info": {
+    "name": "EmailEngine Account Oauth2 API",
+    "version": "1.0.0"
+  },
+  "items": [
+    {
+      "info": {
+        "name": "Oauth2",
+        "type": "folder"
+      },
+      "items": [
+        {
+          "info": {
+            "name": "List OAuth2 applications",
+            "type": "http"
+          },
+          "http": {
+            "method": "GET",
+            "url": "https://api.emailengine.app/v1/oauth2"
+          },
+          "docs": "List OAuth2 applications"
+        }
+      ]
+    }
+  ],
+  "bundled": true
+}

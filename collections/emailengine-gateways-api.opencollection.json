@@ -1,0 +1,29 @@
+{
+  "opencollection": "1.0.0",
+  "info": {
+    "name": "EmailEngine Account Gateways API",
+    "version": "1.0.0"
+  },
+  "items": [
+    {
+      "info": {
+        "name": "Gateways",
+        "type": "folder"
+      },
+      "items": [
+        {
+          "info": {
+            "name": "List SMTP gateways",
+            "type": "http"
+          },
+          "http": {
+            "method": "GET",
+            "url": "https://api.emailengine.app/v1/gateways"
+          },
+          "docs": "List SMTP gateways"
+        }
+      ]
+    }
+  ],
+  "bundled": true
+}

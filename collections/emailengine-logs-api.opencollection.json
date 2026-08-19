@@ -1,0 +1,36 @@
+{
+  "opencollection": "1.0.0",
+  "info": {
+    "name": "EmailEngine Account Logs API",
+    "version": "1.0.0"
+  },
+  "items": [
+    {
+      "info": {
+        "name": "Logs",
+        "type": "folder"
+      },
+      "items": [
+        {
+          "info": {
+            "name": "Get logs for account",
+            "type": "http"
+          },
+          "http": {
+            "method": "GET",
+            "url": "https://api.emailengine.app/v1/logs/:account",
+            "params": [
+              {
+                "name": "account",
+                "value": "",
+                "type": "path"
+              }
+            ]
+          },
+          "docs": "Get logs for account"
+        }
+      ]
+    }
+  ],
+  "bundled": true
+}

@@ -1,0 +1,36 @@
+{
+  "opencollection": "1.0.0",
+  "info": {
+    "name": "EmailEngine Account Deliverytest API",
+    "version": "1.0.0"
+  },
+  "items": [
+    {
+      "info": {
+        "name": "Deliverytest",
+        "type": "folder"
+      },
+      "items": [
+        {
+          "info": {
+            "name": "Check delivery test status",
+            "type": "http"
+          },
+          "http": {
+            "method": "GET",
+            "url": "https://api.emailengine.app/v1/deliverytest/check/:deliverytest",
+            "params": [
+              {
+                "name": "deliverytest",
+                "value": "",
+                "type": "path"
+              }
+            ]
+          },
+          "docs": "Check delivery test status"
+        }
+      ]
+    }
+  ],
+  "bundled": true
+}

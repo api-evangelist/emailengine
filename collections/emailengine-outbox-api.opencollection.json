@@ -1,0 +1,29 @@
+{
+  "opencollection": "1.0.0",
+  "info": {
+    "name": "EmailEngine Account Outbox API",
+    "version": "1.0.0"
+  },
+  "items": [
+    {
+      "info": {
+        "name": "Outbox",
+        "type": "folder"
+      },
+      "items": [
+        {
+          "info": {
+            "name": "List outbox items",
+            "type": "http"
+          },
+          "http": {
+            "method": "GET",
+            "url": "https://api.emailengine.app/v1/outbox"
+          },
+          "docs": "List outbox items"
+        }
+      ]
+    }
+  ],
+  "bundled": true
+}

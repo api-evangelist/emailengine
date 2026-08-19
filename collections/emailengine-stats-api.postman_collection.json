@@ -1,0 +1,101 @@
+{
+  "item": [
+    {
+      "id": "f12d3408-1e35-4478-9386-332a4cf4fd9d",
+      "name": "Stats",
+      "description": {
+        "content": "",
+        "type": "text/plain"
+      },
+      "item": [
+        {
+          "id": "0c3306fe-6556-4e61-b63e-e449a5d7be86",
+          "name": "Retrieve EmailEngine statistics",
+          "request": {
+            "name": "Retrieve EmailEngine statistics",
+            "description": {},
+            "url": {
+              "path": [
+                "v1",
+                "stats"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "method": "GET",
+            "auth": null
+          },
+          "response": [
+            {
+              "id": "c6e2a6a0-f0e6-467d-9685-a5f59fb66d9b",
+              "name": "Stats response",
+              "originalRequest": {
+                "url": {
+                  "path": [
+                    "v1",
+                    "stats"
+                  ],
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "query": [],
+                  "variable": []
+                },
+                "header": [
+                  {
+                    "key": "Accept",
+                    "value": "application/json"
+                  }
+                ],
+                "method": "GET",
+                "body": {}
+              },
+              "status": "OK",
+              "code": 200,
+              "header": [
+                {
+                  "key": "Content-Type",
+                  "value": "application/json"
+                }
+              ],
+              "body": "{}",
+              "cookie": [],
+              "_postman_previewlanguage": "json"
+            }
+          ],
+          "event": [],
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          }
+        }
+      ],
+      "event": []
+    }
+  ],
+  "event": [],
+  "variable": [
+    {
+      "type": "string",
+      "value": "https://api.emailengine.app",
+      "key": "baseUrl"
+    }
+  ],
+  "info": {
+    "_postman_id": "80621f3e-a339-4169-9267-bc41ca6003c7",
+    "name": "EmailEngine Account Stats API",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "description": {
+      "content": "EmailEngine REST API exposes a unified interface for sending and receiving email through IMAP, SMTP, Gmail, and Microsoft Graph. Endpoints below are derived from the public EmailEngine API reference navigation.",
+      "type": "text/plain"
+    }
+  }
+}

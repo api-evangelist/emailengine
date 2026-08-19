@@ -1,0 +1,101 @@
+{
+  "item": [
+    {
+      "id": "7cf6ed08-24eb-4d24-b11d-78f6c211f983",
+      "name": "Webhookroutes",
+      "description": {
+        "content": "",
+        "type": "text/plain"
+      },
+      "item": [
+        {
+          "id": "6ae8a1f8-4c58-45bd-baa0-bd2fc2606287",
+          "name": "List webhook routes",
+          "request": {
+            "name": "List webhook routes",
+            "description": {},
+            "url": {
+              "path": [
+                "v1",
+                "webhookroutes"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "method": "GET",
+            "auth": null
+          },
+          "response": [
+            {
+              "id": "f186f58e-555e-4ad3-864b-328183d7963b",
+              "name": "Webhook routes response",
+              "originalRequest": {
+                "url": {
+                  "path": [
+                    "v1",
+                    "webhookroutes"
+                  ],
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "query": [],
+                  "variable": []
+                },
+                "header": [
+                  {
+                    "key": "Accept",
+                    "value": "application/json"
+                  }
+                ],
+                "method": "GET",
+                "body": {}
+              },
+              "status": "OK",
+              "code": 200,
+              "header": [
+                {
+                  "key": "Content-Type",
+                  "value": "application/json"
+                }
+              ],
+              "body": "{}",
+              "cookie": [],
+              "_postman_previewlanguage": "json"
+            }
+          ],
+          "event": [],
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          }
+        }
+      ],
+      "event": []
+    }
+  ],
+  "event": [],
+  "variable": [
+    {
+      "type": "string",
+      "value": "https://api.emailengine.app",
+      "key": "baseUrl"
+    }
+  ],
+  "info": {
+    "_postman_id": "c51a6838-33d5-4f76-8016-839f0d863396",
+    "name": "EmailEngine Account Webhookroutes API",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "description": {
+      "content": "EmailEngine REST API exposes a unified interface for sending and receiving email through IMAP, SMTP, Gmail, and Microsoft Graph. Endpoints below are derived from the public EmailEngine API reference navigation.",
+      "type": "text/plain"
+    }
+  }
+}

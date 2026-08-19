@@ -1,0 +1,101 @@
+{
+  "item": [
+    {
+      "id": "736bffa9-3988-4e75-bb9a-1da619b8b329",
+      "name": "Oauth2",
+      "description": {
+        "content": "",
+        "type": "text/plain"
+      },
+      "item": [
+        {
+          "id": "81a2e6b3-81de-4406-b52b-d151b4840bad",
+          "name": "List OAuth2 applications",
+          "request": {
+            "name": "List OAuth2 applications",
+            "description": {},
+            "url": {
+              "path": [
+                "v1",
+                "oauth2"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "method": "GET",
+            "auth": null
+          },
+          "response": [
+            {
+              "id": "a4145b9b-7c6d-44aa-813a-4aba1dcdc158",
+              "name": "OAuth2 applications response",
+              "originalRequest": {
+                "url": {
+                  "path": [
+                    "v1",
+                    "oauth2"
+                  ],
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "query": [],
+                  "variable": []
+                },
+                "header": [
+                  {
+                    "key": "Accept",
+                    "value": "application/json"
+                  }
+                ],
+                "method": "GET",
+                "body": {}
+              },
+              "status": "OK",
+              "code": 200,
+              "header": [
+                {
+                  "key": "Content-Type",
+                  "value": "application/json"
+                }
+              ],
+              "body": "{}",
+              "cookie": [],
+              "_postman_previewlanguage": "json"
+            }
+          ],
+          "event": [],
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          }
+        }
+      ],
+      "event": []
+    }
+  ],
+  "event": [],
+  "variable": [
+    {
+      "type": "string",
+      "value": "https://api.emailengine.app",
+      "key": "baseUrl"
+    }
+  ],
+  "info": {
+    "_postman_id": "d0b4c00b-e34d-414e-9fde-21ad7cb5501f",
+    "name": "EmailEngine Account Oauth2 API",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "description": {
+      "content": "EmailEngine REST API exposes a unified interface for sending and receiving email through IMAP, SMTP, Gmail, and Microsoft Graph. Endpoints below are derived from the public EmailEngine API reference navigation.",
+      "type": "text/plain"
+    }
+  }
+}
