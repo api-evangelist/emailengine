@@ -24,6 +24,12 @@ tags:
   - Email API
   - IMAP
   - SMTP
+  - Webhook
+tags_raw:
+  - Email
+  - Email API
+  - IMAP
+  - SMTP
   - Webhooks
 url: https://raw.githubusercontent.com/api-evangelist/emailengine/refs/heads/main/apis.yml
 created: '2025-02-06'
@@ -58,6 +64,8 @@ apis:
   humanURL: https://emailengine.app/
   baseURL: https://api.emailengine.app
   tags:
+  - Account
+  tags_raw:
   - Accounts
   properties:
   - type: OpenAPI
@@ -178,6 +186,8 @@ apis:
   humanURL: https://emailengine.app/
   baseURL: https://api.emailengine.app
   tags:
+  - Authentication
+  tags_raw:
   - Oauth2
   properties:
   - type: OpenAPI
