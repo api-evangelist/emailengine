@@ -49,7 +49,7 @@ created: '2025-02-06'
 modified: '2026-05-19'
 specificationVersion: '0.23'
 access: 3rd-Party
-position: Consumer
+position: Consuming
 apis:
 - aid: emailengine:emailengine-account-api
   name: EmailEngine Account API
