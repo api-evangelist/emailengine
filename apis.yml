@@ -316,6 +316,8 @@ apis:
   - type: Webhooks
     url: https://emailengine.app/webhooks
 common:
+  - type: Website
+    url: https://www.emailengine.app/
   - type: Releases
     url: https://github.com/postalsys/emailengine/releases
   - type: SecurityPolicy
