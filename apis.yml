@@ -193,28 +193,6 @@ apis:
     url: https://github.com/postalsys/emailengine
   - type: Webhooks
     url: https://emailengine.app/webhooks
-- aid: emailengine:emailengine-oauth2-api
-  name: EmailEngine Oauth2 API
-  description: The Oauth2 API from EmailEngine — 1 operation(s) for oauth2.
-  humanURL: https://emailengine.app/
-  baseURL: https://api.emailengine.app
-  tags:
-  - Authentication
-  tags_raw:
-  - Oauth2
-  properties:
-  - type: OpenAPI
-    url: openapi/emailengine-oauth2-api-openapi.yml
-  - type: Documentation
-    url: https://emailengine.app/
-  - type: APIReference
-    url: https://learn.emailengine.app/docs/api/emailengine-api
-  - type: Documentation
-    url: https://learn.emailengine.app/
-  - type: SourceCode
-    url: https://github.com/postalsys/emailengine
-  - type: Webhooks
-    url: https://emailengine.app/webhooks
 - aid: emailengine:emailengine-outbox-api
   name: EmailEngine Outbox API
   description: The Outbox API from EmailEngine — 1 operation(s) for outbox.
@@ -305,6 +283,26 @@ apis:
   properties:
   - type: OpenAPI
     url: openapi/emailengine-webhookroutes-api-openapi.yml
+  - type: Documentation
+    url: https://emailengine.app/
+  - type: APIReference
+    url: https://learn.emailengine.app/docs/api/emailengine-api
+  - type: Documentation
+    url: https://learn.emailengine.app/
+  - type: SourceCode
+    url: https://github.com/postalsys/emailengine
+  - type: Webhooks
+    url: https://emailengine.app/webhooks
+- aid: emailengine:emailengine-oauth2-api
+  name: EmailEngine Oauth2 API
+  description: The Oauth2 API from EmailEngine — 1 operation(s) for oauth2.
+  humanURL: https://emailengine.app/
+  baseURL: https://api.emailengine.app
+  tags:
+  - Oauth2
+  properties:
+  - type: OpenAPI
+    url: openapi/emailengine-oauth2-api-openapi.yml
   - type: Documentation
     url: https://emailengine.app/
   - type: APIReference
