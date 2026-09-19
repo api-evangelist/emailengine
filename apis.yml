@@ -299,6 +299,8 @@ apis:
   humanURL: https://emailengine.app/
   baseURL: https://api.emailengine.app
   tags:
+  - Authentication
+  tags_raw:
   - Oauth2
   properties:
   - type: OpenAPI
