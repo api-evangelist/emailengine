@@ -1,19 +1,7 @@
 {
   "provider": "emailengine",
   "sources": [
-    "emailengine-account-api-openapi.yml",
-    "emailengine-accounts-api-openapi.yml",
-    "emailengine-autoconfig-api-openapi.yml",
-    "emailengine-deliverytest-api-openapi.yml",
-    "emailengine-gateways-api-openapi.yml",
-    "emailengine-license-api-openapi.yml",
-    "emailengine-logs-api-openapi.yml",
-    "emailengine-oauth2-api-openapi.yml",
-    "emailengine-outbox-api-openapi.yml",
-    "emailengine-stats-api-openapi.yml",
-    "emailengine-templates-api-openapi.yml",
-    "emailengine-tokens-api-openapi.yml",
-    "emailengine-webhookroutes-api-openapi.yml"
+    "_ae-authored/emailengine-openapi.yml"
   ],
   "outputs": [
     "emailengine-account-api-openapi.yml",
@@ -30,9 +18,58 @@
     "emailengine-tokens-api-openapi.yml",
     "emailengine-webhookroutes-api-openapi.yml"
   ],
-  "archived": [],
+  "archived": [
+    "deleted 1 superseded output(s) from the previous generation"
+  ],
   "errors": [],
   "warnings": [],
-  "notes": [],
-  "skipped": []
+  "notes": [
+    "sourced from openapi/_original/ (0 archived document(s)); previously refined output at the top level was skipped rather than re-split",
+    "emailengine-openapi.yml: upgraded openapi 3.1.0 -> OpenAPI 3.2.0",
+    "emailengine-openapi.yml: tagged paths GET /v1/accounts -> Accounts",
+    "emailengine-openapi.yml: tagged paths GET /v1/account/{account}/mailboxes -> Account",
+    "emailengine-openapi.yml: tagged paths GET /v1/account/{account}/messages -> Account",
+    "emailengine-openapi.yml: tagged paths POST /v1/account/{account}/submit -> Account",
+    "emailengine-openapi.yml: tagged paths GET /v1/outbox -> Outbox",
+    "emailengine-openapi.yml: tagged paths GET /v1/deliverytest/check/{deliverytest} -> Deliverytest",
+    "emailengine-openapi.yml: tagged paths GET /v1/tokens -> Tokens",
+    "emailengine-openapi.yml: tagged paths GET /v1/autoconfig -> Autoconfig",
+    "emailengine-openapi.yml: tagged paths GET /v1/templates -> Templates",
+    "emailengine-openapi.yml: tagged paths GET /v1/logs/{account} -> Logs",
+    "emailengine-openapi.yml: tagged paths GET /v1/stats -> Stats",
+    "emailengine-openapi.yml: tagged paths GET /v1/license -> License",
+    "emailengine-openapi.yml: tagged paths GET /v1/webhookroutes -> Webhookroutes",
+    "emailengine-openapi.yml: tagged paths GET /v1/oauth2 -> Oauth2",
+    "emailengine-openapi.yml: tagged paths GET /v1/gateways -> Gateways",
+    "emailengine-openapi.yml: declared missing tag: Account",
+    "emailengine-openapi.yml: declared missing tag: Accounts",
+    "emailengine-openapi.yml: declared missing tag: Autoconfig",
+    "emailengine-openapi.yml: declared missing tag: Deliverytest",
+    "emailengine-openapi.yml: declared missing tag: Gateways",
+    "emailengine-openapi.yml: declared missing tag: License",
+    "emailengine-openapi.yml: declared missing tag: Logs",
+    "emailengine-openapi.yml: declared missing tag: Oauth2",
+    "emailengine-openapi.yml: declared missing tag: Outbox",
+    "emailengine-openapi.yml: declared missing tag: Stats",
+    "emailengine-openapi.yml: declared missing tag: Templates",
+    "emailengine-openapi.yml: declared missing tag: Tokens",
+    "emailengine-openapi.yml: declared missing tag: Webhookroutes",
+    "superseded outputs removed: emailengine-o-auth2-api-openapi.yml",
+    "apis.yml register: written (+1 apis, 13 total)"
+  ],
+  "skipped": [
+    "emailengine-account-api-openapi.yml: previously refined output, superseded by openapi/_original/",
+    "emailengine-accounts-api-openapi.yml: previously refined output, superseded by openapi/_original/",
+    "emailengine-autoconfig-api-openapi.yml: previously refined output, superseded by openapi/_original/",
+    "emailengine-deliverytest-api-openapi.yml: previously refined output, superseded by openapi/_original/",
+    "emailengine-gateways-api-openapi.yml: previously refined output, superseded by openapi/_original/",
+    "emailengine-license-api-openapi.yml: previously refined output, superseded by openapi/_original/",
+    "emailengine-logs-api-openapi.yml: previously refined output, superseded by openapi/_original/",
+    "emailengine-o-auth2-api-openapi.yml: previously refined output, superseded by openapi/_original/",
+    "emailengine-outbox-api-openapi.yml: previously refined output, superseded by openapi/_original/",
+    "emailengine-stats-api-openapi.yml: previously refined output, superseded by openapi/_original/",
+    "emailengine-templates-api-openapi.yml: previously refined output, superseded by openapi/_original/",
+    "emailengine-tokens-api-openapi.yml: previously refined output, superseded by openapi/_original/",
+    "emailengine-webhookroutes-api-openapi.yml: previously refined output, superseded by openapi/_original/"
+  ]
 }

@@ -1,6 +1,6 @@
-openapi: 3.1.0
+openapi: 3.2.0
 info:
-  title: EmailEngine Account Deliverytest API
+  title: EmailEngine Deliverytest API
   description: EmailEngine REST API exposes a unified interface for sending and receiving email through IMAP, SMTP, Gmail, and Microsoft Graph. Endpoints below are derived from the public EmailEngine API reference navigation.
   version: 1.0.0
   x-generated-from: https://learn.emailengine.app/docs/api/emailengine-api
