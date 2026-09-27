@@ -18,9 +18,7 @@
     "emailengine-tokens-api-openapi.yml",
     "emailengine-webhookroutes-api-openapi.yml"
   ],
-  "archived": [
-    "deleted 1 superseded output(s) from the previous generation"
-  ],
+  "archived": [],
   "errors": [],
   "warnings": [],
   "notes": [
@@ -54,8 +52,7 @@
     "emailengine-openapi.yml: declared missing tag: Templates",
     "emailengine-openapi.yml: declared missing tag: Tokens",
     "emailengine-openapi.yml: declared missing tag: Webhookroutes",
-    "superseded outputs removed: emailengine-o-auth2-api-openapi.yml",
-    "apis.yml register: written (+1 apis, 13 total)"
+    "apis.yml register: already-registered"
   ],
   "skipped": [
     "emailengine-account-api-openapi.yml: previously refined output, superseded by openapi/_original/",
@@ -65,7 +62,7 @@
     "emailengine-gateways-api-openapi.yml: previously refined output, superseded by openapi/_original/",
     "emailengine-license-api-openapi.yml: previously refined output, superseded by openapi/_original/",
     "emailengine-logs-api-openapi.yml: previously refined output, superseded by openapi/_original/",
-    "emailengine-o-auth2-api-openapi.yml: previously refined output, superseded by openapi/_original/",
+    "emailengine-oauth2-api-openapi.yml: previously refined output, superseded by openapi/_original/",
     "emailengine-outbox-api-openapi.yml: previously refined output, superseded by openapi/_original/",
     "emailengine-stats-api-openapi.yml: previously refined output, superseded by openapi/_original/",
     "emailengine-templates-api-openapi.yml: previously refined output, superseded by openapi/_original/",

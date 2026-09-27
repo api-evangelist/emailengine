@@ -7,6 +7,10 @@ description: >-
   bounce detection so developers can build modern email functionality without paying per-account fees.
 deliveryModel:
   model: unknown
+  license_evidence:
+    repo: postalsys/emailengine
+    spdx: NOASSERTION
+    stars: 2229
   open_source: unknown
   commercial: true
   callable_host: true
@@ -16,7 +20,7 @@ deliveryModel:
   - openapi
   - pricing
   - repository-unlicensed
-  generated: '2026-08-28'
+  generated: '2026-09-25'
   method: derived
 accessModel:
   pricing: freemium
