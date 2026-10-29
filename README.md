@@ -1,4 +1,4 @@
-# EmailEngine (emailengine)
+# EmailEngine
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -66,68 +66,143 @@
 
 EmailEngine is a self-hosted email automation platform that provides a unified REST API for accessing email accounts via IMAP, SMTP, the Gmail API, and the Microsoft Graph API. It exposes JSON payloads, real-time webhooks, OAuth2 integration, an IMAP/SMTP proxy, hosted authentication forms, low-code custom integrations, Prometheus monitoring, and bounce detection so developers can build modern email functionality without paying per-account fees.
 
-**APIs.json:** [https://raw.githubusercontent.com/api-evangelist/emailengine/refs/heads/main/apis.yml](https://raw.githubusercontent.com/api-evangelist/emailengine/refs/heads/main/apis.yml)
+**Areas:** Email · Email API · IMAP · SMTP · Webhook
 
-## Scope
+## EmailEngine on APIs.io
 
-- **Type:** Index
-- **Position:** Consumer
-- **Access:** 3rd-Party
+Everything profiled for EmailEngine is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/emailengine/](https://apis.io/providers/emailengine/)** — or go straight to one of the APIs or properties below.
 
-## Tags
+### APIs (13)
 
-- Email
-- Email API
-- IMAP
-- SMTP
-- Webhooks
+- [EmailEngine Account API](https://apis.io/apis/emailengine/emailengine-account-api/) — The Account API from EmailEngine — 3 operation(s) for account.
+- [EmailEngine Accounts API](https://apis.io/apis/emailengine/emailengine-accounts-api/) — The Accounts API from EmailEngine — 1 operation(s) for accounts.
+- [EmailEngine Autoconfig API](https://apis.io/apis/emailengine/emailengine-autoconfig-api/) — The Autoconfig API from EmailEngine — 1 operation(s) for autoconfig.
+- [EmailEngine Deliverytest API](https://apis.io/apis/emailengine/emailengine-deliverytest-api/) — The Deliverytest API from EmailEngine — 1 operation(s) for deliverytest.
+- [EmailEngine Gateways API](https://apis.io/apis/emailengine/emailengine-gateways-api/) — The Gateways API from EmailEngine — 1 operation(s) for gateways.
+- [EmailEngine License API](https://apis.io/apis/emailengine/emailengine-license-api/) — The License API from EmailEngine — 1 operation(s) for license.
+- [EmailEngine Logs API](https://apis.io/apis/emailengine/emailengine-logs-api/) — The Logs API from EmailEngine — 1 operation(s) for logs.
+- [EmailEngine Outbox API](https://apis.io/apis/emailengine/emailengine-outbox-api/) — The Outbox API from EmailEngine — 1 operation(s) for outbox.
+- [EmailEngine Stats API](https://apis.io/apis/emailengine/emailengine-stats-api/) — The Stats API from EmailEngine — 1 operation(s) for stats.
+- [EmailEngine Templates API](https://apis.io/apis/emailengine/emailengine-templates-api/) — The Templates API from EmailEngine — 1 operation(s) for templates.
+- [EmailEngine Tokens API](https://apis.io/apis/emailengine/emailengine-tokens-api/) — The Tokens API from EmailEngine — 1 operation(s) for tokens.
+- [EmailEngine Webhookroutes API](https://apis.io/apis/emailengine/emailengine-webhookroutes-api/) — The Webhookroutes API from EmailEngine — 1 operation(s) for webhookroutes.
+- [EmailEngine Oauth2 API](https://apis.io/apis/emailengine/emailengine-oauth2-api/) — The Oauth2 API from EmailEngine — 1 operation(s) for oauth2.
 
-## Timestamps
+### Published properties
 
-- **Created:** 2025-02-06
-- **Modified:** 2026-05-19
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-## APIs
+#### Agentic access (1)
 
-### EmailEngine API
+Which operations an agent can call, which act, and which need a human in the loop.
 
-EmailEngine API exposes a unified REST interface for sending and receiving email through IMAP, SMTP, Gmail, and Microsoft Graph. Developers can manage mailboxes, send messages, work with attachments, configure webhooks, and automate OAuth2 token renewal across consumer and enterprise email providers.
+- [Emailengine Agentic Access](https://apis.io/agentic-access/emailengine/emailengine-agentic-access/)
 
-- **Human URL:** [https://emailengine.app/](https://emailengine.app/)
-- **Base URL:** `https://api.emailengine.app`
+#### Collections (14)
 
-#### Tags
+Postman and Open Collection request collections.
 
-- Email
-- Email API
-- IMAP
-- SMTP
+- [EmailEngine API](https://apis.io/collections/emailengine/open-emailengine/)
+- [EmailEngine Account API](https://apis.io/collections/emailengine/open-emailengine-account-api/)
+- [EmailEngine Account Accounts API](https://apis.io/collections/emailengine/open-emailengine-accounts-api/)
+- [EmailEngine Account Autoconfig API](https://apis.io/collections/emailengine/open-emailengine-autoconfig-api/)
+- [EmailEngine Account Deliverytest API](https://apis.io/collections/emailengine/open-emailengine-deliverytest-api/)
+- [EmailEngine Account Gateways API](https://apis.io/collections/emailengine/open-emailengine-gateways-api/)
+- [EmailEngine Account License API](https://apis.io/collections/emailengine/open-emailengine-license-api/)
+- [EmailEngine Account Logs API](https://apis.io/collections/emailengine/open-emailengine-logs-api/)
+- [EmailEngine Account Oauth2 API](https://apis.io/collections/emailengine/open-emailengine-oauth2-api/)
+- [EmailEngine Account Outbox API](https://apis.io/collections/emailengine/open-emailengine-outbox-api/)
+- [EmailEngine Account Stats API](https://apis.io/collections/emailengine/open-emailengine-stats-api/)
+- [EmailEngine Account Templates API](https://apis.io/collections/emailengine/open-emailengine-templates-api/)
+- [EmailEngine Account Tokens API](https://apis.io/collections/emailengine/open-emailengine-tokens-api/)
+- [EmailEngine Account Webhookroutes API](https://apis.io/collections/emailengine/open-emailengine-webhookroutes-api/)
 
-#### Properties
+#### Security (1)
 
-- [OpenAPI](openapi/emailengine-openapi.yml) — [OpenAPI Specification](https://spec.openapis.org/oas/latest.html)
-- [Postman Collection](collections/emailengine.postman_collection.json) — [Postman Collection 2.1](https://schema.getpostman.com/json/collection/v2.1.0/collection.json)
-- [Open Collection](collections/emailengine.opencollection.json) — [Open Collection 1.0](https://schema.opencollection.com/opencollection/v1.0.0.json)
-- [Documentation](https://emailengine.app/)
-- [API Reference](https://learn.emailengine.app/docs/api/emailengine-api)
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Emailengine Domain Security](https://apis.io/security/emailengine/emailengine-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Emailengine Plans Pricing](https://apis.io/plans/emailengine/emailengine-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Emailengine Rate Limits](https://apis.io/rate-limits/emailengine/emailengine-rate-limits/)
+
+#### FinOps (1)
+
+What the API costs to run, by operation.
+
+- [Emailengine Finops](https://apis.io/finops/emailengine/emailengine-finops/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.emailengine.app/)
 - [Documentation](https://learn.emailengine.app/)
-- [Source Code](https://github.com/postalsys/emailengine)
-- [Webhooks](https://emailengine.app/webhooks)
-
-## Common Properties
-
-- [Documentation](https://learn.emailengine.app/)
-- [API Reference](https://learn.emailengine.app/docs/api/emailengine-api)
-- [Webhooks](https://emailengine.app/webhooks)
-- [Source Code](https://github.com/postalsys/emailengine)
-- [Blog](https://blog.emailengine.app/)
-- [F A Q](https://emailengine.app/#faq)
+- [API reference](https://learn.emailengine.app/docs/api/emailengine-api)
 - [Pricing](https://postalsys.com/plans)
-- [Terms of Service](https://postalsys.com/tos)
-- [Privacy Policy](https://emailengine.app/privacy-policy)
 - [Support](https://emailengine.app/support)
+- [Blog](https://blog.emailengine.app/)
+- [Terms of service](https://postalsys.com/tos)
+- [Privacy policy](https://emailengine.app/privacy-policy)
 
-## Maintainers
+## API Evangelist rating
 
-**FN:** Kin Lane
-**Email:** kin@apievangelist.com
+**Kin Score 25.0** — emerging · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 71.4 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 47.4 |
+| Developer ergonomics | 23.8 |
+| Access clarity | 39.5 |
+
+**Agent readiness 19.3** — agent-aware
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | derived (partial credit) |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | derived (partial credit) |
+| Event Surface Described | unknown |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 13.7** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/emailengine/](https://apis.io/providers/emailengine/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for EmailEngine: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/emailengine/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
